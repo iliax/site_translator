@@ -39,7 +39,7 @@ public class PropertiesServlet extends HttpServlet {
 
 		log.info("new props : " + props.toString());
 		saveOrUpdateProps(props);
-		resp.getWriter().print("Ok! v.1.29");
+		resp.getWriter().print("Ok! v.1.3.1");
 	}
 
 }
